@@ -23,7 +23,12 @@ blog.gitbook.com`
     - Chưa tải được mạng yếu vl 
     - `subfinder -d gitbook.com -o scraped-subdomains.txt`
 ## Brute Force
+- [best-dns-wordlist](https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt)
+- [DNS công bố](https://public-dns.info/nameservers.txt)
 - Tìm DNS resolver 
     - ![alt text](image-5.png)
-- 
+- Puredns Bruteforce
+    - ![](image-6.png)
+    - `puredns bruteforce best-dns-wordlist.txt gitbook.com -r resolvers.txt -w brute-subdomains.txt`
+
     
