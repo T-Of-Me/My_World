@@ -27,8 +27,13 @@ blog.gitbook.com`
 - [DNS công bố](https://public-dns.info/nameservers.txt)
 - Tìm DNS resolver 
     - ![alt text](image-5.png)
+    - `dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 20 -o resolvers.txt`
 - Puredns Bruteforce
     - ![](image-6.png)
     - `puredns bruteforce best-dns-wordlist.txt gitbook.com -r resolvers.txt -w brute-subdomains.txt`
-
-    
+# Confirming Status 
+- subfinder quét ra danh sách subdomain.
+- Output được pipe `(|)` cho **httpx** để thử kết nối **HTTP/HTTPS**.
+- Kết quả **subdomain** nào online sẽ được in ra + lưu vào **online-subdomains.txt**.
+- ![alt text](image-7.png) 
+- `subfinder -d gitbook.com -silent | httpx -silent | tee online-subdomains.txt`
