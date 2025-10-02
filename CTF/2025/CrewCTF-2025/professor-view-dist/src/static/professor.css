@@ -1,0 +1,55 @@
+/* Body and overall layout */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.8;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Student and Complain sections */
+#student, #complain {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 1.2rem;
+  background: #eef7ee;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.menu .profile {
+    margin-left: auto; /* This pushes the profile image to the far right */
+    padding-right: 20px;  /* Add padding to the right of the profile image */
+      display: flex;               /* Make the profile div a flex container */
+    align-items: center;         /* Vertically center the image inside the div */
+}
+
+.menu .profile img {
+    width: 40px; /* Set image size */
+    height: 40px; /* Set image size */
+    border-radius: 50%; /* Make the image circular */
+    background-color: white; /* Background color to create a circular surrounding */
+    padding: 1px; /* Optional: Adds some space between the image and border */
+}

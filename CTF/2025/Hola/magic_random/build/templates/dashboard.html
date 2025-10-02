@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turn-Based Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Turn-Based Battle</h1>
+    <div class="characters">
+      <div class="character" id="player">
+        <h2>👨 Player</h2>
+        <p>HP: <span id="player-hp">100</span></p>
+      </div>
+      <div class="character" id="enemy">
+        <h2>👾 Enemy</h2>
+        <p>HP: <span id="enemy-hp">100</span></p>
+      </div>
+    </div>
+    <div class="actions">
+      <p style="font-size: large;">Your skill</p>
+      <div id="skills-container"></div>
+      <p id="description"></p>
+      <p id="log">Game start</p>
+    </div>
+  </div>
+
+  <script>
+    let playerHP = 100;
+    let enemyHP = 100;
+    const cooldowns = {};
+  
+    const log = document.getElementById("log");
+    const description = document.getElementById("description");
+    const playerHPDisplay = document.getElementById("player-hp");
+    const enemyHPDisplay = document.getElementById("enemy-hp");
+    const skillsContainer = document.getElementById("skills-container");
+  
+    async function fetchSkills() {
+      try {
+        const response = await fetch(`/api/list_attack_types`);
+        const data = await response.json();
+        renderSkills(data);
+      } catch (error) {
+        log.textContent = "Error loading skills.";
+      }
+    }
+  
+    function renderSkills(skills) {
+      skillsContainer.innerHTML = ""; // Clear existing skills
+      for (const skill in skills) {
+        const button = document.createElement("button");
+        button.textContent = skills[skill].name;
+        button.onmouseover = () => showDescription(skill, skills);
+        button.onclick = () => useSkill(skill, skills);
+        button.id = `skill-${skill}`;
+        skillsContainer.appendChild(button);
+      }
+    }
+  
+    function showDescription(skill, skills) {
+      // Check if the skill is on cooldown
+      if (cooldowns[skill] > 0) {
+        description.textContent = `${skills[skill].description} (Skill is on cooldown: ${cooldowns[skill]} turns)`;
+      } else {
+        description.textContent = skills[skill].description;
+      }
+    }
+  
+    async function useSkill(skill, skills) {
+      if (playerHP <= 0 || enemyHP <= 0) return;
+  
+      // Check if the skill is on cooldown
+      if (cooldowns[skill]) {
+        log.textContent = `⏳ Skill "${skills[skill].name}" is on cooldown (${cooldowns[skill]} turns remaining).`;
+        return;
+      }
+  
+      try {
+        const response = await fetch(`/api/cast_attack?attack_name=${skill}`);
+        const data = await response.json();
+  
+        if (response.ok) {
+          if (data.type === "heal") {
+            playerHP = Math.min(100, playerHP + data.damage);
+            log.textContent = `💊 You heal ${data.damage} HP.`;
+          } else if (data.type === "attack") {
+            enemyHP = Math.max(0, enemyHP - data.damage);
+            log.textContent = `⚔️ You deal ${data.damage} damage.`;
+          }
+  
+          // Apply cooldown from API
+          const skillCooldown = data.cooldown;
+          if (skillCooldown > 0) {
+            cooldowns[skill] = skillCooldown;
+            const button = document.getElementById(`skill-${skill}`);
+            button.disabled = true;
+            button.textContent = `${skills[skill].name} (${cooldowns[skill]} turns)`;
+          }
+        } else {
+          log.innerHTML = data.error || "An error occurred.";
+        }
+  
+        updateUI();
+  
+        if (enemyHP === 0) {
+          log.textContent = "👑 You win!";
+        } else {
+          setTimeout(() => {
+            reduceCooldowns(skills); // Reduce cooldowns after player's turn
+            enemyTurn();
+          }, 1500);
+        }
+      } catch (error) {
+        log.textContent = "Error: Unable to use skill.";
+      }
+    }
+  
+    function enemyTurn() {
+      if (enemyHP <= 0 || playerHP <= 0) return;
+  
+      const damage = Math.floor(Math.random() * 10) + 5;
+      playerHP = Math.max(0, playerHP - damage);
+      log.textContent = `👾 Enemy attacks! (-${damage} HP)`;
+  
+      updateUI();
+  
+      if (playerHP === 0) {
+        log.textContent = "💀 You lose!";
+      }
+    }
+  
+    function reduceCooldowns(skills) {
+      for (const skill in cooldowns) {
+        cooldowns[skill]--;
+        const button = document.getElementById(`skill-${skill}`);
+        if (cooldowns[skill] <= 0) {
+          delete cooldowns[skill];
+          button.disabled = false;
+          button.textContent = skills[skill].name; 
+        } else {
+          button.textContent = `${skills[skill].name} (${cooldowns[skill]} turns)`; 
+        }
+      }
+    }
+  
+    function updateUI() {
+      playerHPDisplay.textContent = playerHP;
+      enemyHPDisplay.textContent = enemyHP;
+    }
+  
+    // Fetch skills on page load
+    fetchSkills();
+  </script>
+</body>
+</html>

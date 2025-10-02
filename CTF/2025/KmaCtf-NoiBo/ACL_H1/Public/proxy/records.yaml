@@ -1,0 +1,4 @@
+records:
+  http:
+    keep_alive_enabled_in: 0
+    keep_alive_enabled_out: 0

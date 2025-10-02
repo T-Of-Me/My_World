@@ -1,0 +1,28 @@
+services:
+  gunicorn-server:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: gunicorn-server
+    expose:
+      - "8088"
+    networks:
+      - internal-network
+
+  ats-proxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    container_name: ats-proxy
+    ports:
+      - "8188:8080"
+    depends_on:
+      - gunicorn-server
+    networks:
+      - internal-network
+      - default
+
+networks:
+  internal-network:
+    driver: bridge
+    internal: true

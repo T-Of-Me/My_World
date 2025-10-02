@@ -1,0 +1,35 @@
+{% extends "admin/admin_base.html" %}
+{% block content %}
+
+<!-- Add Product Form -->
+<div class="container mt-5">
+    <h2 class="text-center">Add New Product</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form action="/admin/add_product" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label">Product Name</label>
+                    <input type="text" name="name" class="form-control" placeholder="Enter product name" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Price ($)</label>
+                    <input type="number" name="price" class="form-control" placeholder="Enter price" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Product Image</label>
+                    <input type="file" name="uploaded_image" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Description</label>
+                    <textarea name="description" class="form-control" rows="3" placeholder="Enter product description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Add Product</button>
+            </form>
+            <br>
+            {% if message %}
+                <div class="alert alert-danger text-center">{{ message }}</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

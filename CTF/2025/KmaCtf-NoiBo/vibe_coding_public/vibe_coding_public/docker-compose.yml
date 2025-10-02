@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  nodejs-server:
+    build:
+      context: ./nodejs-server
+      dockerfile: Dockerfile
+    container_name: ctf-nodejs-server
+    environment:
+      - PORT=3000
+      - JWT_SECRET=randomsecretkey
+      - PYTHON_SERVER=http://python-server:8080
+    ports:
+      - "3000:3000"
+    depends_on:
+      - python-server
+    networks:
+      - ctf-network
+    restart: unless-stopped
+
+  python-server:
+    build:
+      context: ./python-server
+      dockerfile: Dockerfile
+    container_name: ctf-python-server
+    environment:
+      - PORT=8080
+      - FLAG=KMACTF{REDACTED}
+    networks:
+      - ctf-network
+    restart: unless-stopped
+
+networks:
+  ctf-network:
+    driver: bridge

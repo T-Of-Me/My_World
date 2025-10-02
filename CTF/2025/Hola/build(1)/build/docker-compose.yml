@@ -1,0 +1,11 @@
+services:
+  php-app:
+    build: .
+    container_name: php-app1
+    ports:
+      - "8088:80"
+    volumes:
+      - ./challenge:/var/www/html
+      - ./flag.txt:/flag.txt
+      - ./database:/opt/database
+    restart: unless-stopped

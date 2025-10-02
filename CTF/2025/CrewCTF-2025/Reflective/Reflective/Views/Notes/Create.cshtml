@@ -1,0 +1,36 @@
+@model Reflective.Views.Notes.NotesCreateModel
+
+@{
+    ViewBag.Title = "Create Note";
+    Layout = "_RootLayout";
+}
+
+<h2 class="mb-4">Create a new note</h2>
+@using (Html.BeginForm("CreateNote", "Notes"))
+{
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Title, new { @class = "form-label" })
+        @Html.TextBoxFor(
+            m => m.Title,
+            new
+            {
+                @class = "form-control",
+                placeholder = "Title..."
+            })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Description, new { @class = "form-label" })
+        @Html.TextAreaFor(
+            m => m.Description,
+            new
+            {
+                @class = "form-control",
+                rows = "3",
+                style = "resize: none;",
+                placeholder = "Description..."
+            })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}

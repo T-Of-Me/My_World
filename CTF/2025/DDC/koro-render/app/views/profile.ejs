@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Koro-Render</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="profile-page">
+    <div class="profile-container">
+        <h1>Your Profile</h1>
+        <div class="avatar-container">
+            <img src="<%= user.avatar || '/images/default-avatar.png' %>" alt="Avatar" class="avatar">
+        </div>
+        <form id="profile-form" action="#" method="POST" enctype="multipart/form-data" class="profile-form">
+            <input type="text" name="username" value="<%= user.username %>" required>
+            <input type="text" name="name" value="<%= user.name %>" required>
+            <input type="email" name="email" value="<%= user.email %>" required>
+            <input type="text" name="isAdmin" value="Role: <%= user.isAdmin ? 'Admin' : 'User' %>" disabled>
+            <input type="text" name="note" value="Note: <%= user.note || 'Welcome user' %>" disabled>
+        </form>
+        <a href="/chat" class="btn btn-secondary">Back to Chat</a>
+    </div>
+</body>
+</html>
