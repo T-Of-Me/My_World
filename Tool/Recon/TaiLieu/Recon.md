@@ -37,3 +37,11 @@ blog.gitbook.com`
 - Kết quả **subdomain** nào online sẽ được in ra + lưu vào **online-subdomains.txt**.
 - ![alt text](image-7.png) 
 - `subfinder -d gitbook.com -silent | httpx -silent | tee online-subdomains.txt`
+# Masscan
+## Find open ports
+- Quét thôi 
+- `sudo masscan 192.168.1.0/24 -p- --rate 100000 -oX out.xml`
+## Convert output to nmap format 
+- Chỉnh lại cho phù hợp với nhiều tool khác 
+- `sudo chown $USER:$(id -gn) $1
+sed -i '/<!-- masscan v1.0 scan -->/d' $1`
