@@ -79,3 +79,7 @@ sed -i '/<!-- masscan v1.0 scan -->/d' $1`
 # Wildcards 
 - **Includes "verysecret"** `parsed.names:/.*verysecret.*/`
 - Very ở đầu -> `parsed.names:/.*\Wvery.*secret.*/`
+# Gobuster
+- Tìm các trang ẩn 
+- ![alt text](image-10.png)
+- `gobuster dir -u https://www.youtube.com -w FUZZ.txt -t 40 -o gobuster-dir.txt`
