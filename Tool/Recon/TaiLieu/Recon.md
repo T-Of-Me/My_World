@@ -45,3 +45,29 @@ blog.gitbook.com`
 - Chỉnh lại cho phù hợp với nhiều tool khác 
 - `sudo chown $USER:$(id -gn) $1
 sed -i '/<!-- masscan v1.0 scan -->/d' $1`
+# Nmap 
+- `sV` — dò phiên bản phần mềm (service/version detection).
+
+ `O` — dò hệ điều hành (OS detection).
+
+- `sC` — chạy các script mặc định an toàn (default safe NSE scripts).
+
+- `Pn` — không ping trước (bỏ bước phát hiện host; coi host luôn online).
+
+- `n` — không phân giải DNS (không tra tên từ IP).
+
+- `sS` — Stealth scan (TCP SYN scan, mở nửa kết nối; thường cần sudo).
+
+- `T4` — cấu hình tốc độ scan (T0..T5); -T4 là nhanh, cân nhắc khi an toàn.
+
+- `oN [filename]` — xuất kết quả dạng text thường vào file.
+
+- `p [ports]` — chỉ định cổng (ví dụ -p80,443 hoặc -p1-1024, -p- = tất cả cổng).
+
+- `sU` — quét UDP thay vì TCP (chậm và hay thiếu nhất quán).
+
+- `vv` — verbose hơn, in nhiều thông tin trong lúc quét.
+- ![alt text](image-8.png)
+- `nmap [options] 10.10.10.10`
+- `sudo nmap -sV -O -sC -Pn -n -sS -T4 -oN nmap.txt -p- -vv 10.10.10.10`
+- `sudo nmap -Pn -n -sV -sC -O -vv -oN nmap-udp.txt --top-ports 100 -sU --version-intensity 0 -T4 10.10.10.10`
