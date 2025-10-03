@@ -48,7 +48,7 @@ sed -i '/<!-- masscan v1.0 scan -->/d' $1`
 # Nmap 
 - `sV` — dò phiên bản phần mềm (service/version detection).
 
- `O` — dò hệ điều hành (OS detection).
+- `O` — dò hệ điều hành (OS detection).
 
 - `sC` — chạy các script mặc định an toàn (default safe NSE scripts).
 
