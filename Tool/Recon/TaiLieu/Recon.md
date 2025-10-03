@@ -71,3 +71,11 @@ sed -i '/<!-- masscan v1.0 scan -->/d' $1`
 - `nmap [options] 10.10.10.10`
 - `sudo nmap -sV -O -sC -Pn -n -sS -T4 -oN nmap.txt -p- -vv 10.10.10.10`
 - `sudo nmap -Pn -n -sV -sC -O -vv -oN nmap-udp.txt --top-ports 100 -sU --version-intensity 0 -T4 10.10.10.10`
+# Account Finding 
+- ![alt text](image-9.png)
+- `$ sherlock USERNAME [USERNAMES ...]`
+# [Certificate Transparency](https://search.censys.io/certificates) 
+- Nhập domain để tìm chứng chỉ của trang web 
+# Wildcards 
+- **Includes "verysecret"** `parsed.names:/.*verysecret.*/`
+- Very ở đầu -> `parsed.names:/.*\Wvery.*secret.*/`
