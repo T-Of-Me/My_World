@@ -85,3 +85,5 @@ sed -i '/<!-- masscan v1.0 scan -->/d' $1`
 - `gobuster dir -u https://www.youtube.com -w FUZZ.txt -t 40 -o gobuster-dir.txt`
 # Nuclei
 - ![alt text](image-11.png)
+# Nmap-scripts
+- ![alt text](image-12.png)
