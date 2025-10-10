@@ -1,0 +1,7 @@
+- Context
+    -  [Biến `file` có thể kiểm soát ](https://github.com/T-Of-Me/My_World/blame/main/CTF/2025/Compfest/Basssh/pages/exec.sh#L4)
+    -  [Thực thi tại dòng này ](https://github.com/T-Of-Me/My_World/blame/main/CTF/2025/Compfest/Basssh/pages/exec.sh#L14)
+- Solve 
+    - `-a` khiến basename coi mỗi token tiếp theo là một NAME riêng — nên `..`, `//`, `..`, `//`, `flag` sẽ được xử lý rời rạc
+    - `-z` sẽ thêm `NUL (\0)` giữa các output
+    - `-za%20..%20//%20..%20//%20flag`

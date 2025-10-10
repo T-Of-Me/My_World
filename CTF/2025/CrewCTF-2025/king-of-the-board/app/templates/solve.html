@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+	<h2 style="margin-top:0;">/solve</h2>
+	<p>Click below to send an admin message into the chat.</p>
+	<form method="post" class="section">
+		<button class="btn" type="submit">Send admin message: "{{ trigger_message }}"</button>
+	</form>
+	{% if processing %}
+	<p class="small meta">Admin is processing your request... refreshes every 3s.</p>
+	<script>setTimeout(()=>{window.location.reload();},3000);</script>
+	{% elif completed %}
+	<p class="small meta"><strong>Admin response completed.</strong></p>
+	{% endif %}
+</div>
+{% endblock %}

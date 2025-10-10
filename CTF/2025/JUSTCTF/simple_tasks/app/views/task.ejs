@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Task</title>
+  <style nonce="<%= locals.nonce %>">
+    body {
+      font-family: sans-serif;
+      background: #fdf6e3;
+      text-align: center;
+      padding: 2em;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+
+    td {
+      padding: 0.5em 1em;
+      border-bottom: 1px solid #ccc;
+      font-size: 1.2em;
+      max-width: 300px;
+    }
+
+    td pre{
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      text-align: left;
+    }
+
+    .btn,
+    button {
+      font-size: 1.1em;
+      padding: 0.5em 1.2em;
+      margin-top: 1em;
+      cursor: pointer;
+      background-color: #eee;
+      border: 1px solid #aaa;
+    }
+
+    td.delete {
+      width: 20px;
+    }
+    td.delete button{
+      margin: 0;
+      padding: 2px 4px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1em;
+    }
+
+    input[type="text"] {
+      padding: 0.5em;
+      font-size: 1.2em;
+      width: 80%;
+      margin-right: 1em;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Edit Task</h1>
+
+  <h3>Task Tasks</h3>
+  <form method="POST" action="/tasks/<%= taskId %>">
+    <div class="form-container">
+      <input type="text" name="content" placeholder="Add a new task" required>
+      <button class="btn" type="submit">Save Task</button>
+    </div>
+  </form>
+
+  <table>
+    <% tasks.forEach((task, idx)=> { %>
+      <tr>
+        <td class="delete">
+          <form action="/tasks/delete/<%= taskId %>/<%= idx %>">
+            <button>X</button>
+          </form>
+        </td>
+        <td>
+          <pre><%= task %></pre>
+        </td>
+        <td class="delete">
+          <form action="/tasks/preview/<%= taskId %>/<%= idx %>">
+            <button>Preview</button>
+          </form>
+        </td>
+       
+      </tr>
+      <% }) %>
+  </table>
+
+  <form action="/tasks" method="GET">
+    <button class="btn" type="submit">Back to Tasks</button>
+  </form>
+
+</body>
+
+</html>

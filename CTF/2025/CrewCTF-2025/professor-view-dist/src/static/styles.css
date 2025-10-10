@@ -1,0 +1,250 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background:
+      /* Vertical lines */
+      linear-gradient(90deg,
+          transparent 49px,
+          rgba(255, 0, 0, 0.1) 49px,
+          rgba(255, 0, 0, 0.1) 50px,
+          transparent 50px),
+      /* Horizontal lines */
+      linear-gradient(0deg,
+          transparent 49px,
+          rgba(255, 0, 0, 0.1) 49px,
+          rgba(255, 0, 0, 0.1) 50px,
+          transparent 50px),
+      /* Base background */
+      #f4f7f6;
+  background-size: 50px 50px;
+}
+
+/* Styling the menu */
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;         /* Enable flexbox */
+  align-items: center;   /* Vertically align items */
+  justify-content: space-between; /* Align items to the left */
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+      flex-grow: 1;                 /* Allow <ul> to take up available space */
+
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Score table styling */
+.score-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.score-table thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.score-table th, .score-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.score-table th {
+  font-size: 1.1rem;
+}
+
+.score-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.score-table tbody tr:hover {
+  background-color: #e2f4e1;
+  cursor: pointer;
+}
+
+/* Form Styling */
+form {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Input & Textarea Styling */
+form input[name="student"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[name="student"]:focus,
+form textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+
+/* Textarea Specific Styles */
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* HCaptcha styling */
+.h-captcha {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .score-table {
+    width: 100%;
+  }
+
+  form {
+    padding: 15px;
+    width: 100%;
+  }
+
+  form input[type="text"], form input[type="submit"] {
+    width: 100%;
+  }
+}
+
+#course-overview {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+}
+footer img {
+    height: 40px;
+    width: auto;
+}
+
+ul {
+    line-height: 1.6;
+    list-style-type: square;
+    padding-left: 20px;
+}
+ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+ul ul ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 8px;
+}
+
+#plusplusplus {
+  right-padding: 2px;
+}

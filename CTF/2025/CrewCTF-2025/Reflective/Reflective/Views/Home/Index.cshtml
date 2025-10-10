@@ -1,0 +1,26 @@
+@model Reflective.Views.Home.HomeIndexModel
+
+@{
+    Layout = "_RootLayout";
+}
+
+<h2>Welcome!</h2>
+@if (Model.NoteCount == 1)
+{
+    <p>There is currently 1 note!</p>
+}
+else
+{
+    <p>There is currently @Model.NoteCount notes!</p>
+}
+
+@foreach (var note in Model.Notes)
+{
+    <div class="card mb-2" style="width: 24rem;">
+        <div class="card-body">
+            <div class="card-title">@note.Title</div>
+            <div class="card-subtitle mb-2 text-body-secondary">Created at @note.CreatedAt</div>
+            <p class="card-text">@note.Description</p>
+        </div>
+    </div>
+}

@@ -1,0 +1,532 @@
+/.buildpath/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/.buildpath][0m
+/.cache/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/.cache][0m
+/%ff/                [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/%EF%BF%BD][0m
+/.build/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/.build][0m
+/.c9revisions/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/.c9revisions][0m
+/.c9/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/.c9][0m
+/.cpanel/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/.cpanel][0m
+/.dev/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/.dev][0m
+/.elasticbeanstalk/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/.elasticbeanstalk][0m
+/.fontconfig/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/.fontconfig][0m
+/.git-rewrite/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/.git-rewrite][0m
+/.git/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/.git][0m
+/%3f/                [36m (Status: 301)[0m [Size: 208][34m [--> https://admin.rtaf.mi.th/][0m
+/.git/logs/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/.git/logs][0m
+/.git2/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/.git2][0m
+/.externalToolBuilders/[36m (Status: 301)[0m [Size: 250][34m [--> https://admin.rtaf.mi.th/.externalToolBuilders][0m
+/.grunt/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/.grunt][0m
+/.hg/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/.hg][0m
+/.hg/store/data/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/.hg/store/data][0m
+/.idea/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/.idea][0m
+/.idea_modules/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/.idea_modules][0m
+/.ignored/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/.ignored][0m
+/.inst/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/.inst][0m
+/.komodotools/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/.komodotools][0m
+/.localeapp/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/.localeapp][0m
+/.magentointel-cache/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/.magentointel-cache][0m
+/.mc/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/.mc][0m
+/.idea0/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/.idea0][0m
+/.metadata/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/.metadata][0m
+/.modgit/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/.modgit][0m
+/.modman/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/.modman][0m
+/.nbproject/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/.nbproject][0m
+/.patches/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/.patches][0m
+/.project/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/.project][0m
+/.qqestore/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/.qqestore][0m
+/.rsync_cache/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/.rsync_cache][0m
+/.sass-cache/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/.sass-cache][0m
+/.sencha/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/.sencha][0m
+/.settings/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/.settings][0m
+/.st_cache/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/.st_cache][0m
+/.svn/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/.svn][0m
+/.sucuriquarantine/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/.sucuriquarantine][0m
+/.tx/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/.tx][0m
+/.vgextensions/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/.vgextensions][0m
+/1c/                 [36m (Status: 301)[0m [Size: 212][34m [--> https://admin.rtaf.mi.th/1c][0m
+/1/                  [36m (Status: 301)[0m [Size: 210][34m [--> https://admin.rtaf.mi.th/1][0m
+/.workspace/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/.workspace][0m
+/.zfs/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/.zfs][0m
+/__ma/               [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/__cache/            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_.htpasswd          [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/__index.php         [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/__SQL               [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/__test.php          [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_data/error_log     [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error_log][0m
+/_config.inc         [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/__pma___/           [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_adm                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_data/              [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_common.xsl         [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_legacy             [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_layouts            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_include            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_files              [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_errors             [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_install            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_index.php          [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_log/               [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_log/access_log     [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access_log][0m
+/_log/access.log     [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access.log][0m
+/_log/error-log      [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error-log][0m
+/_log/access-log     [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access-log][0m
+/_logs               [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_log/error.log      [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error.log][0m
+/_log/error_log      [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error_log][0m
+/__MACOSX            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_logs/              [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_logs/access-log    [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access-log][0m
+/_logs/access.log    [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access.log][0m
+/_logs/error.log     [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error.log][0m
+/_mmServerScripts/MMHTTPDB.php[36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/en/MMHTTPDB.php][0m
+/_mmServerScripts/MMHTTPDB.asp[36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/en/MMHTTPDB.asp][0m
+/_notes/dwsync.xml   [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/dwsync.xml][0m
+/_logs/error_log     [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error_log][0m
+/_old                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_novo/composer.lock [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/en/composer.lock][0m
+/_pages              [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_phpmyadmin/        [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_PHPMYADMIN/        [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_pHpMyAdMiN/        [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_phpMyAdmin/        [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_SQL                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_source             [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_test               [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_src                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_vti_inf.html       [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_WEB_INF/           [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_www                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_vti_pvt/service.cnf[36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/en/service.cnf][0m
+/adm/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/adm][0m
+/admin-console/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/admin-console][0m
+/_logs/error-log     [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/en/error-log][0m
+/admin%20/           [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/admin][0m
+/_sqladm             [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/admin/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/admin][0m
+/_private            [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/_admin              [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/en/][0m
+/admin/backup/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/admin/backup][0m
+/admin/_dump/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/admin/_dump][0m
+/admin/backups/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/admin/backups][0m
+/admin/db/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/admin/db][0m
+/admin-serv/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/admin-serv][0m
+/admin/dumper/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/admin/dumper][0m
+/_logs/access_log    [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/en/access_log][0m
+/Admin/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/Admin][0m
+/admin/js/tinymce/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/admin/js/tinymce][0m
+/admin/js/tiny_mce/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/admin/js/tiny_mce][0m
+/admin/logs/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/admin/logs][0m
+/admin/phpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/admin/phpmyadmin][0m
+/admin/pma/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/admin/pma][0m
+/admin/phpMyAdmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/admin/phpMyAdmin][0m
+/Admin/phpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/Admin/phpmyadmin][0m
+/Admin/phpMyAdmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/Admin/phpMyAdmin][0m
+/admin/sxd/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/admin/sxd][0m
+/admin/test/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/admin/test][0m
+/admin1/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/admin1][0m
+/admin2.old/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/admin2.old][0m
+/admin2/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/admin2][0m
+/admincp/js/kindeditor/[36m (Status: 301)[0m [Size: 250][34m [--> https://admin.rtaf.mi.th/admincp/js/kindeditor][0m
+/admincp/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/admincp][0m
+/admincp/upload/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/admincp/upload][0m
+/adminer/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/adminer][0m
+/administration/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/administration][0m
+/administrative/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/administrative][0m
+/administrator/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/administrator][0m
+/administrator/components/com_joommyadmin/phpmyadmin/[36m (Status: 301)[0m [Size: 310][34m [--> https://admin.rtaf.mi.th/administrator/components/com_joommyadmin/phpmyadmin][0m
+/adminpanel/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/adminpanel][0m
+/admins/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/admins][0m
+/admins/backup/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/admins/backup][0m
+/alfa/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/alfa][0m
+/admrev/_files/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/admrev/_files][0m
+/apache-default/phpmyadmin/[36m (Status: 301)[0m [Size: 258][34m [--> https://admin.rtaf.mi.th/apache-default/phpmyadmin][0m
+/api/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/api][0m
+/app/logs/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/app/logs][0m
+/app/log/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/app/log][0m
+/application/cache/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/application/cache][0m
+/application/logs/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/application/logs][0m
+/awstats/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/awstats][0m
+/b2badmin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/b2badmin][0m
+/azureadmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/azureadmin][0m
+/backdoor/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/backdoor][0m
+/backup/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/backup][0m
+/Backup/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/Backup][0m
+/backup0/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/backup0][0m
+/backup2/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/backup2][0m
+/backup1/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/backup1][0m
+/backup123/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/backup123][0m
+/backups/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/backups][0m
+/base/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/base][0m
+/bb-admin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/bb-admin][0m
+/beta/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/beta][0m
+/Backups/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/Backups][0m
+/bitrix/backup/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/bitrix/backup][0m
+/bitrix/dumper/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/bitrix/dumper][0m
+/bitrix/import/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/bitrix/import][0m
+/bitrix/logs/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/bitrix/logs][0m
+/bitrix/rk.php?goto=http://evil.com[33m (Status: 403)[0m [Size: 150]
+/bitrix/otp/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/bitrix/otp][0m
+/blog/phpmyadmin/    [36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/blog/phpmyadmin][0m
+/biy/upload/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/biy/upload][0m
+/blog/wp-content/backup-db/[36m (Status: 301)[0m [Size: 258][34m [--> https://admin.rtaf.mi.th/blog/wp-content/backup-db][0m
+/blog/wp-content/backups/[36m (Status: 301)[0m [Size: 254][34m [--> https://admin.rtaf.mi.th/blog/wp-content/backups][0m
+/cgi.pl/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/cgi.pl][0m
+/citrix/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/citrix][0m
+/ckeditor/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/ckeditor][0m
+/cache/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/cache][0m
+/code/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/code][0m
+/conf/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/conf][0m
+/cms/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/cms][0m
+/Config/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/Config][0m
+/config/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/config][0m
+/confluence/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/confluence][0m
+/console/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/console][0m
+/configuration/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/configuration][0m
+/cp/                 [36m (Status: 301)[0m [Size: 212][34m [--> https://admin.rtaf.mi.th/cp][0m
+/cpanelphpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/cpanelphpmyadmin][0m
+/cpanel/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/cpanel][0m
+/cpphpmyadmin/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/cpphpmyadmin][0m
+/crond/logs/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/crond/logs][0m
+/CVS/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/CVS][0m
+/cvs/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/cvs][0m
+/crm/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/crm][0m
+/data/logs/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/data/logs][0m
+/data/debug/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/data/debug][0m
+/data/tmp/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/data/tmp][0m
+/data/backups/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/data/backups][0m
+/data/files/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/data/files][0m
+/dataBackup/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/dataBackup][0m
+/db_backups/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/db_backups][0m
+/db/                 [36m (Status: 301)[0m [Size: 212][34m [--> https://admin.rtaf.mi.th/db][0m
+/Database_Backup/    [36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/Database_Backup][0m
+/database/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/database][0m
+/dbfix/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/dbfix][0m
+/dbadmin/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/dbadmin][0m
+/dev/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/dev][0m
+/development.esproj/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/development.esproj][0m
+/dist/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/dist][0m
+/dbbackup/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/dbbackup][0m
+/development-parts/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/development-parts][0m
+/development/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/development][0m
+/debug/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/debug][0m
+/dumps/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/dumps][0m
+/dump/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/dump][0m
+/dumper/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/dumper][0m
+/editor/tiny_mce/    [36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/editor/tiny_mce][0m
+/editor/stats/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/editor/stats][0m
+/editor/tinymce/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/editor/tinymce][0m
+/error/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/error][0m
+/errors/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/errors][0m
+/export/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/export][0m
+/exp/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/exp][0m
+/examples/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/examples][0m
+/FCKeditor/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/FCKeditor][0m
+/FCKeditor2.1/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/FCKeditor2.1][0m
+/FCKeditor2.0/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/FCKeditor2.0][0m
+/FCKeditor2.2/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/FCKeditor2.2][0m
+/FCKeditor24/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/FCKeditor24][0m
+/FCKeditor20/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/FCKeditor20][0m
+/FCKeditor2.4/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/FCKeditor2.4][0m
+/FCKeditor2/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/FCKeditor2][0m
+/FCKeditor21/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/FCKeditor21][0m
+/FCKeditor23/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/FCKeditor23][0m
+/FCKeditor2.3/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/FCKeditor2.3][0m
+/FCKeditor22/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/FCKeditor22][0m
+/file_manager/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/file_manager][0m
+/fileadmin/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/fileadmin][0m
+/filedump/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/filedump][0m
+/file_upload/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/file_upload][0m
+/filemanager/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/filemanager][0m
+/files/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/files][0m
+/fileupload/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/fileupload][0m
+/forum/phpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/forum/phpmyadmin][0m
+/ganglia/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/ganglia][0m
+/inc/fckeditor/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/inc/fckeditor][0m
+/inc/tinymce/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/inc/tinymce][0m
+/include/fckeditor/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/include/fckeditor][0m
+/inc/tiny_mce/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/inc/tiny_mce][0m
+/import/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/import][0m
+/includes/js/tiny_mce/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/includes/js/tiny_mce][0m
+/includes/tiny_mce/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/includes/tiny_mce][0m
+/includes/tinymce/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/includes/tinymce][0m
+/install2/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/install2][0m
+/install~/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/install~][0m
+/installer/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/installer][0m
+/ispmgr/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/ispmgr][0m
+/jira/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/jira][0m
+/jmx-console/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/jmx-console][0m
+/install1/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/install1][0m
+/install/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/install][0m
+/js/tiny_mce/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/js/tiny_mce][0m
+/jscripts/tiny_mce/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/jscripts/tiny_mce][0m
+/jscripts/tinymce/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/jscripts/tinymce][0m
+/jsp-examples/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/jsp-examples][0m
+/lib/tinymce/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/lib/tinymce][0m
+/lib/tiny_mce/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/lib/tiny_mce][0m
+/libraries/phpmailer/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/libraries/phpmailer][0m
+/libraries/tiny_mce/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/libraries/tiny_mce][0m
+/libraries/tinymce/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/libraries/tinymce][0m
+/js/tinymce/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/js/tinymce][0m
+/lib/fckeditor/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/lib/fckeditor][0m
+/log/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/log][0m
+/logs/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/logs][0m
+/logs_console/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/logs_console][0m
+/maintenance/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/maintenance][0m
+/manager/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/manager][0m
+/ma/                 [36m (Status: 301)[0m [Size: 212][34m [--> https://admin.rtaf.mi.th/ma][0m
+/mssql/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/mssql][0m
+/moderator/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/moderator][0m
+/myadm/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/myadm][0m
+/mw-config/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/mw-config][0m
+/msql/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/msql][0m
+/MyAdmin/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/MyAdmin][0m
+/mybackup/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/mybackup][0m
+/mysql-admin/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/mysql-admin][0m
+/mysql/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/mysql][0m
+/mysql_backups/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/mysql_backups][0m
+/mysqladmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/mysqladmin][0m
+/mysqldumper/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/mysqldumper][0m
+/myadmin/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/myadmin][0m
+/nginx-status/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/nginx-status][0m
+/mysqlmanager/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/mysqlmanager][0m
+/nbproject/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/nbproject][0m
+/old/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/old][0m
+/old_site/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/old_site][0m
+/p/m/a/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/p/m/a][0m
+/panel/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/panel][0m
+/pbmadmin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/pbmadmin][0m
+/php-my-admin/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/php-my-admin][0m
+/php-myadmin/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/php-myadmin][0m
+/php/phpmyadmin/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/php/phpmyadmin][0m
+/phpadminmy/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpadminmy][0m
+/phpadmin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/phpadmin][0m
+/phpma/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/phpma][0m
+/phpmanager/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpmanager][0m
+/phpldapadmin/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/phpldapadmin][0m
+/phpmem/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/phpmem][0m
+/phpmy/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/phpmy][0m
+/phpMy/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/phpMy][0m
+/phpmy-admin/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpmy-admin][0m
+/phpMyAdmin-2.10.0/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.0][0m
+/phpmemcachedadmin/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/phpmemcachedadmin][0m
+/phpmyad/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/phpmyad][0m
+/phpMyAdmin-2.10.0.0/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.0.0][0m
+/phpMyAdmin-2.10.0.1/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.0.1][0m
+/phpMyAdmin-2.10.2.0/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.2.0][0m
+/phpMyAdmin-2.10.1.0/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.1.0][0m
+/phpMyAdmin-2.11.0.0/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.11.0.0][0m
+/phpMyAdmin-2.11.1-all-languages/[36m (Status: 301)[0m [Size: 270][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.11.1-all-languages][0m
+/phpMyAdmin-2.11.1.1/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.11.1.1][0m
+/phpMyAdmin-2.11.1.2/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.11.1.2][0m
+/phpMyAdmin-2.2.3/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.2.3][0m
+/phpMyAdmin-2.5.5-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.5-pl1][0m
+/phpMyAdmin-2.5.5-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.5-rc1][0m
+/phpMyAdmin-2.5.1/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.1][0m
+/phpMyAdmin-2.5.5-rc2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.5-rc2][0m
+/phpMyAdmin-2.5.5/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.5][0m
+/phpMyAdmin-2.5.6-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.6-rc1][0m
+/phpMyAdmin-2.2.6/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.2.6][0m
+/phpMyAdmin-2.5.6-rc2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.6-rc2][0m
+/phpMyAdmin-2.5.6/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.6][0m
+/phpMyAdmin-2.5.7-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.7-pl1][0m
+/phpMyAdmin-2.5.7/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.7][0m
+/phpMyAdmin-2.6.0-alpha/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-alpha][0m
+/phpMyAdmin-2.10.0.2/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.10.0.2][0m
+/phpMyAdmin-2.6.0-beta2/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-beta2][0m
+/phpMyAdmin-2.6.0-beta1/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-beta1][0m
+/phpMyAdmin-2.6.0-alpha2/[36m (Status: 301)[0m [Size: 254][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-alpha2][0m
+/phpMyAdmin-2.6.0-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-pl1][0m
+/phpMyAdmin-2.6.0-pl2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-pl2][0m
+/phpMyAdmin-2.6.0-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-rc1][0m
+/phpMyAdmin-2.6.3-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.3-pl1][0m
+/phpMyAdmin-2.6.0-pl3/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-pl3][0m
+/phpMyAdmin-2.11.1.0/[36m (Status: 301)[0m [Size: 246][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.11.1.0][0m
+/phpMyAdmin-2.6.1/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1][0m
+/phpMyAdmin-2.6.0-rc3/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-rc3][0m
+/phpMyAdmin-2.6.0-rc2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0-rc2][0m
+/phpMyAdmin-2.6.1-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1-pl1][0m
+/phpMyAdmin-2.6.1-pl3/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1-pl3][0m
+/phpMyAdmin-2.6.0/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.0][0m
+/phpMyAdmin-2.6.2-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.2-pl1][0m
+/phpMyAdmin-2.6.2/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.2][0m
+/phpMyAdmin-2.6.1-pl2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1-pl2][0m
+/phpMyAdmin-2.6.1-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1-rc1][0m
+/phpMyAdmin-2.6.2-beta1/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.2-beta1][0m
+/phpMyAdmin-2.6.1-rc2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.1-rc2][0m
+/phpMyAdmin-2.6.3-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.3-rc1][0m
+/phpMyAdmin-2.5.4/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.5.4][0m
+/phpMyAdmin-2.6.4-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4-pl1][0m
+/phpMyAdmin-2.6.3/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.3][0m
+/phpMyAdmin-2.6.4-pl2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4-pl2][0m
+/phpMyAdmin-2.6.4-pl4/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4-pl4][0m
+/phpMyAdmin-2.6.4-pl3/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4-pl3][0m
+/phpMyAdmin-2.6.4-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4-rc1][0m
+/phpMyAdmin-2.6.6/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.6][0m
+/phpMyAdmin-2.7.0-pl2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.0-pl2][0m
+/phpMyAdmin-2.6.5/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.5][0m
+/phpMyAdmin-2.7.0/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.0][0m
+/phpMyAdmin-2.7.0-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.0-rc1][0m
+/phpMyAdmin-2.7.5/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.5][0m
+/phpMyAdmin-2.7.6/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.6][0m
+/phpMyAdmin-2.7.7/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.7][0m
+/phpMyAdmin-2.6.2-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.2-rc1][0m
+/phpMyAdmin-2.8.0-beta1/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0-beta1][0m
+/phpMyAdmin-2.8.0-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0-rc1][0m
+/phpMyAdmin-2.8.0.3/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0.3][0m
+/phpMyAdmin-2.6.4/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.4][0m
+/phpMyAdmin-2.8.0-rc2/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0-rc2][0m
+/phpMyAdmin-2.8.0.1/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0.1][0m
+/phpMyAdmin-2.8.0.2/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0.2][0m
+/phpMyAdmin-2.8.0/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0][0m
+/phpMyAdmin-2.8.2.3/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.2.3][0m
+/phpMyAdmin-2.8.1-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.1-rc1][0m
+/phpMyAdmin-2.8.1/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.1][0m
+/phpMyAdmin-2.8.0.4/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.0.4][0m
+/phpMyAdmin-2.6.9/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.6.9][0m
+/phpMyAdmin-2.8.8/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.8][0m
+/phpMyAdmin-2.8.2/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.2][0m
+/phpMyAdmin-2.9.0-rc1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.0-rc1][0m
+/phpMyAdmin-2.8.7/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.7][0m
+/phpMyAdmin-2.8.4/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.4][0m
+/phpMyAdmin-2.8.5/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.5][0m
+/phpMyAdmin-2.7.0-beta1/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.0-beta1][0m
+/phpMyAdmin-2.8.6/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.6][0m
+/phpMyAdmin-2.8.3/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.3][0m
+/phpMyAdmin-2.9.0.2/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.0.2][0m
+/phpMyAdmin-2.9.0.1/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.0.1][0m
+/phpMyAdmin-2.7.0-pl1/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.7.0-pl1][0m
+/phpMyAdmin-2.9.0/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.0][0m
+/phpMyAdmin-2.9.2/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.2][0m
+/phpMyAdmin-2/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2][0m
+/phpMyAdmin-3.0.0.0-all-languages/[36m (Status: 301)[0m [Size: 272][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.0.0.0-all-languages][0m
+/phpMyAdmin-2.9.1/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.9.1][0m
+/phpMyAdmin-3.0.0-rc1-english/[36m (Status: 301)[0m [Size: 264][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.0.0-rc1-english][0m
+/phpMyAdmin-3.0.1.0-english/[36m (Status: 301)[0m [Size: 260][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.0.1.0-english][0m
+/phpMyAdmin-3.0.1.0/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.0.1.0][0m
+/phpMyAdmin-3.0.1.1/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.0.1.1][0m
+/phpMyAdmin-3.1.0.0/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.0.0][0m
+/phpMyAdmin-3.1.1.0-all-languages/[36m (Status: 301)[0m [Size: 272][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.1.0-all-languages][0m
+/phpMyAdmin-3.1.2.0-english/[36m (Status: 301)[0m [Size: 260][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.2.0-english][0m
+/phpMyAdmin-3.1.2.0-all-languages/[36m (Status: 301)[0m [Size: 272][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.2.0-all-languages][0m
+/phpMyAdmin-3.1.2.0/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.2.0][0m
+/phpMyAdmin-3.4.3.1/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.4.3.1][0m
+/phpMyAdmin-4.0.10.10-english/[36m (Status: 301)[0m [Size: 264][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.0.10.10-english][0m
+/phpMyAdmin-4.0.10.10-all-languages/[36m (Status: 301)[0m [Size: 276][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.0.10.10-all-languages][0m
+/phpMyAdmin-2.8.9/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-2.8.9][0m
+/phpMyAdmin-4.3.13.3-all-languages/[36m (Status: 301)[0m [Size: 274][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.3.13.3-all-languages][0m
+/phpMyAdmin-4.3.13.3-english/[36m (Status: 301)[0m [Size: 262][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.3.13.3-english][0m
+/phpMyAdmin-4.4.14.1-all-languages/[36m (Status: 301)[0m [Size: 274][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.4.14.1-all-languages][0m
+/phpMyAdmin-4.5.0-rc1-all-languages/[36m (Status: 301)[0m [Size: 276][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.5.0-rc1-all-languages][0m
+/phpMyAdmin-4.4.14.1-english/[36m (Status: 301)[0m [Size: 262][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.4.14.1-english][0m
+/phpMyAdmin-4.5.0-rc1-english/[36m (Status: 301)[0m [Size: 264][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-4.5.0-rc1-english][0m
+/phpmyadmin.backup/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/phpmyadmin.backup][0m
+/phpmyadmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpmyadmin][0m
+/phpmyadmin0/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpmyadmin0][0m
+/phpmyadmin1/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpmyadmin1][0m
+/phpmyadmin3/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpmyadmin3][0m
+/phpMyAdmin2/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpMyAdmin2][0m
+/phpmyadmin2/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpmyadmin2][0m
+/phpMyAdmin1/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpMyAdmin1][0m
+/phpMyAdmin0/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpMyAdmin0][0m
+/phpMyAdmin3/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpMyAdmin3][0m
+/phpredmin/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/phpredmin][0m
+/phpPgAdmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpPgAdmin][0m
+/phpsysinfo/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpsysinfo][0m
+/phpRedisAdmin/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/phpRedisAdmin][0m
+/phppgadmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phppgadmin][0m
+/phpsecinfo/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpsecinfo][0m
+/phymyadmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phymyadmin][0m
+/phpMyAdmin-3.1.0.0-english/[36m (Status: 301)[0m [Size: 260][34m [--> https://admin.rtaf.mi.th/phpMyAdmin-3.1.0.0-english][0m
+/phpMyAdmin/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/phpMyAdmin][0m
+/phpMyAdminBackup/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/phpMyAdminBackup][0m
+/plugins/tinymce/    [36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/plugins/tinymce][0m
+/phpMyAdmin4/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/phpMyAdmin4][0m
+/phpThumb/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/phpThumb][0m
+/pma/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/pma][0m
+/PMA/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/PMA][0m
+/pma4/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/pma4][0m
+/pmadmin/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/pmadmin][0m
+/pma2005/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/pma2005][0m
+/PMA2005/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/PMA2005][0m
+/pmyadmin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/pmyadmin][0m
+/prv/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/prv][0m
+/plugins/tiny_mce/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/plugins/tiny_mce][0m
+/qa/                 [36m (Status: 301)[0m [Size: 212][34m [--> https://admin.rtaf.mi.th/qa][0m
+/remote.php/webdav/  [36m (Status: 301)[0m [Size: 242][34m [--> https://admin.rtaf.mi.th/remote.php/webdav][0m
+/secret/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/secret][0m
+/Secret/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/Secret][0m
+/server-status/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/server-status][0m
+/secure/attachmentzip/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/secure/attachmentzip][0m
+/servers/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/servers][0m
+/Server/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/Server][0m
+/session/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/session][0m
+/sessions/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/sessions][0m
+/settings/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/settings][0m
+/secrets/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/secrets][0m
+/shell/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/shell][0m
+/setup/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/setup][0m
+/soap/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/soap][0m
+/soapserver/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/soapserver][0m
+/sql/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/sql][0m
+/sqlmanager/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/sqlmanager][0m
+/stat/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/stat][0m
+/sqlweb/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/sqlweb][0m
+/stats/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/stats][0m
+/statistics/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/statistics][0m
+/status/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/status][0m
+/surgemail/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/surgemail][0m
+/svn/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/svn][0m
+/sxd/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/sxd][0m
+/SVN/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/SVN][0m
+/sym/root/home/      [36m (Status: 301)[0m [Size: 234][34m [--> https://admin.rtaf.mi.th/sym/root/home][0m
+/sxd/backup/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/sxd/backup][0m
+/sysadmins/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/sysadmins][0m
+/system/log/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/system/log][0m
+/statusicon/         [36m (Status: 301)[0m [Size: 228][34m [--> https://admin.rtaf.mi.th/statusicon][0m
+/system/logs/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/system/logs][0m
+/TEMP/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/TEMP][0m
+/temp/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/temp][0m
+/test/               [36m (Status: 301)[0m [Size: 216][34m [--> https://admin.rtaf.mi.th/test][0m
+/template/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/template][0m
+/syslog/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/syslog][0m
+/templates/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/templates][0m
+/tiny_mce/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/tiny_mce][0m
+/tmp/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/tmp][0m
+/tmp/sessions/       [36m (Status: 301)[0m [Size: 232][34m [--> https://admin.rtaf.mi.th/tmp/sessions][0m
+/tinymce/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/tinymce][0m
+/tools/_backups/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/tools/_backups][0m
+/uber/phpMyAdminBackup/[36m (Status: 301)[0m [Size: 250][34m [--> https://admin.rtaf.mi.th/uber/phpMyAdminBackup][0m
+/uber/phpMyAdmin/    [36m (Status: 301)[0m [Size: 238][34m [--> https://admin.rtaf.mi.th/uber/phpMyAdmin][0m
+/typo3/phpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/typo3/phpmyadmin][0m
+/ui/vault/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/ui/vault][0m
+/uber/phpMemcachedAdmin/[36m (Status: 301)[0m [Size: 252][34m [--> https://admin.rtaf.mi.th/uber/phpMemcachedAdmin][0m
+/upload/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/upload][0m
+/uploader/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/uploader][0m
+/uploadify/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/uploadify][0m
+/uploads/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/uploads][0m
+/useradmin/          [36m (Status: 301)[0m [Size: 226][34m [--> https://admin.rtaf.mi.th/useradmin][0m
+/users/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/users][0m
+/var/log/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/var/log][0m
+/web-console/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/web-console][0m
+/var/backups/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/var/backups][0m
+/var/logs/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/var/logs][0m
+/web/phpMyAdmin/     [36m (Status: 301)[0m [Size: 236][34m [--> https://admin.rtaf.mi.th/web/phpMyAdmin][0m
+/webdav/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/webdav][0m
+/webdav/servlet/webdav/[36m (Status: 301)[0m [Size: 250][34m [--> https://admin.rtaf.mi.th/webdav/servlet/webdav][0m
+/webdb/              [36m (Status: 301)[0m [Size: 218][34m [--> https://admin.rtaf.mi.th/webdb][0m
+/webmail/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/webmail][0m
+/webmin/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/webmin][0m
+/websql/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/websql][0m
+/webstats/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/webstats][0m
+/webstat/            [36m (Status: 301)[0m [Size: 222][34m [--> https://admin.rtaf.mi.th/webstat][0m
+/webadmin/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/webadmin][0m
+/wp-content/backup-db/[36m (Status: 301)[0m [Size: 248][34m [--> https://admin.rtaf.mi.th/wp-content/backup-db][0m
+/wp-content/uploads/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/wp-content/uploads][0m
+/wp.rar/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/wp.rar][0m
+/wp-content/backups/ [36m (Status: 301)[0m [Size: 244][34m [--> https://admin.rtaf.mi.th/wp-content/backups][0m
+/xampp/phpmyadmin/   [36m (Status: 301)[0m [Size: 240][34m [--> https://admin.rtaf.mi.th/xampp/phpmyadmin][0m
+/xls/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/xls][0m
+/xphpMyAdmin/        [36m (Status: 301)[0m [Size: 230][34m [--> https://admin.rtaf.mi.th/xphpMyAdmin][0m
+/xsl/                [36m (Status: 301)[0m [Size: 214][34m [--> https://admin.rtaf.mi.th/xsl][0m
+/~install/           [36m (Status: 301)[0m [Size: 224][34m [--> https://admin.rtaf.mi.th/~install][0m
+/zabbix/             [36m (Status: 301)[0m [Size: 220][34m [--> https://admin.rtaf.mi.th/zabbix][0m

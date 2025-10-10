@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+	<h2 style="margin-top:0;">King of the Board</h2>
+	<p class="section">The message below is seen by everyone. Become the king by setting it!</p>
+	<div class="section board" style="white-space:pre-wrap;">{{ global_message }}</div>
+	{% if user %}
+		<form method="post" action="/message" class="section">
+			<label for="content" class="small meta">Update global message (max 11 characters)</label>
+			<textarea id="content" name="content" rows="3" placeholder="Your message to the world... (max 11 chars)"></textarea>
+			<p class="small meta">Limit: 11 characters. Printable characters only.</p>
+			<div style="margin-top:8px;">
+				<button type="submit" class="btn">Post</button>
+			</div>
+		</form>
+	{% else %}
+		<p class="section"><a href="/login">Log in</a> to post a global message.</p>
+	{% endif %}
+</div>
+{% endblock %}

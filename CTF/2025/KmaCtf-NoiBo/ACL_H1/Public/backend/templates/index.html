@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            padding: 15px;
+            background: #f5f5f5;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img.logo {
+            width: 180px;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        img.proxy {
+            width: 220px;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .features {
+            margin-top: 30px;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .features h2 {
+            margin-top: 20px;
+            color: #007BFF;
+        }
+
+        .features p {
+            margin: 8px 0 20px 0;
+            color: #444;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%;
+            border-radius: 8px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/upload">Upload Files</a>
+        <a href="/files">My Files</a>
+    </nav>
+
+    <main>
+        <h1>Hello from Gunicorn Server!</h1>
+        <img src="{{ url_for('static', filename='assets/gunicorn.jpg') }}" alt="Gunicorn Logo" class="logo">
+
+        <p>This system runs behind <b>Apache Traffic Server</b> as a proxy.</p>
+        <img src="{{ url_for('static', filename='assets/ATS.png') }}" alt="ATS Logo" class="proxy">
+
+        <!-- HINT BUTTON -->
+        <p><a href="#" id="hintBtn">Hint</a></p>
+
+        <!-- THE MODAL -->
+        <div id="hintModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Hint</h2>
+                <p>"The key is the difference."</p>
+                <img src="{{ url_for('static', filename='assets/hint.png') }}" alt="Hint" class="proxy">
+
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>Upload</h2>
+            <p>Select and upload files directly through the web interface.</p>
+
+            <h2>Read</h2>
+            <p>Access your uploaded files securely via generated links.</p>
+
+            <h2>Render</h2>
+            <p>Text and HTML files can be rendered directly in the browser for quick preview. (Internal Admin)</p>
+        </div>
+    </main>
+
+    <script>
+        const modal = document.getElementById("hintModal");
+        const btn = document.getElementById("hintBtn");
+        const span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function (e) {
+            e.preventDefault();
+            modal.style.display = "block";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

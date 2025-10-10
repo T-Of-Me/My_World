@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card" style="max-width:640px; margin: 0 auto;">
+	<h2 style="margin-top:0;">Home</h2>
+	{% if is_admin %}
+		<p class="section">Welcome, <strong>{{ user.username }}</strong>. Here is your flag:</p>
+		<div class="section" style="background:#0e141b; border:1px solid #1c2530; border-radius:10px; padding:12px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;">
+			{{ flag }}
+		</div>
+	{% else %}
+		<p class="section">Welcome, <strong>{{ user.username }}</strong>. Enjoy the game and aim to be King of the Board!</p>
+	{% endif %}
+	<div class="section">
+		<a class="btn" href="/">Go to Board</a>
+	</div>
+</div>
+{% endblock %}
+
+

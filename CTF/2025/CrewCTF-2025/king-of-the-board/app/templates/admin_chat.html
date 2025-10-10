@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+	<h2 style="margin-top:0;">Admin Chat</h2>
+	<div class="section">
+		{% for m in messages %}
+			<div class="message {{ m.role }}">
+				<strong>{{ m.role }}</strong>: {{ m.content }}
+				<div class="small meta">{{ m.created_at }}</div>
+			</div>
+		{% endfor %}
+	</div>
+	<form method="post" action="/admin/send" class="section">
+		<textarea class="input" name="content" rows="3" placeholder="Type a message..."></textarea>
+		<div style="margin-top:8px;">
+			<button class="btn" type="submit">Send</button>
+		</div>
+	</form>
+	{% if processing %}
+	<p class="small meta">Assistant is thinking... This may take a minute. The page will refresh automatically.</p>
+	<script>setTimeout(()=>{window.location.reload();},3000);</script>
+	{% endif %}
+</div>
+{% endblock %}

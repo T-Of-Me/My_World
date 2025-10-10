@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Tasks</title>
+  <style nonce="<%= locals.nonce %>">
+    body {
+      font-family: sans-serif;
+      background: #fdf6e3;
+      text-align: center;
+      padding: 2em;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+
+    td {
+      max-width: 300px;
+      padding: 0.5em 1em;
+      border-bottom: 1px solid #ccc;
+      font-size: 1.2em;
+    }
+
+    td.delete {
+      width: 20px;
+    }
+    td.delete button{
+      margin: 0;
+      padding: 2px 4px;
+    }
+
+    td.view {
+      width: 100px;
+    }
+
+    td pre{
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      text-align: left;
+    }
+
+    .btn,
+    button {
+      font-size: 0.9em;
+      padding: 0.5em 0.5em;
+      margin-top: 1em;
+      cursor: pointer;
+      background-color: #eee;
+      border: 1px solid #aaa;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Your Tasks</h1>
+
+  <table>
+    <% tasks.forEach((task, idx)=> { %>
+      <tr>
+        <td class="delete">
+          <form action="/tasks/delete/<%= idx %>">
+            <button type="submit">X</button>
+          </form>
+        </td>
+        <td class="view">
+          <form action="/tasks/<%= idx %>" method="GET">
+            <button type="submit">View Task</button>
+          </form>
+        </td>
+        <td>
+          <pre><% const preview=task.tasks.join(",\n"); %><%= preview.length>500? preview.slice(0, 500) + "..." : preview %></pre>
+        </td>
+      </tr>
+      <% }) %>
+  </table>
+
+  <form method="POST" action="/tasks/create">
+    <button class="btn" type="submit">Create New Task</button>
+  </form>
+
+</body>
+
+</html>

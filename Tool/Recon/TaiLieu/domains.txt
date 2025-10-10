@@ -1,0 +1,4 @@
+github.com
+githubapp.com
+iad.github.net
+github.net

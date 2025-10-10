@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style nonce="<%= locals.nonce %>">
+        body {
+            font-family: sans-serif;
+            background: #fdf6e3;
+            text-align: center;
+            padding: 2em;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 0.5em;
+            font-size: 1.2em;
+            width: 80%;
+            margin-bottom: 1em;
+            background-color: #fafafa;
+        }
+
+        .btn,
+        button {
+            font-size: 1.1em;
+            padding: 0.5em 1.2em;
+            cursor: pointer;
+            background-color: #eee;
+            border: 1px solid #aaa;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Register</h1>
+
+    <form action="/register" method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <br>
+        <button class="btn" type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="/login">Login here</a></p>
+
+</body>
+
+</html>

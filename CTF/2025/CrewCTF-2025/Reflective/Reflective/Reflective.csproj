@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <NoWarn>NU1903, NU1904</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.3.0" />
+      <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.25" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Note.cs">
+        <DependentUpon>INotesManager.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Views\Home\HomeIndexModel.cs">
+        <DependentUpon>Index.cshtml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\Notes\NotesCreateModel.cs">
+        <DependentUpon>Create.cshtml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\Notes\NotesIndexModel.cs">
+        <DependentUpon>Index.cshtml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

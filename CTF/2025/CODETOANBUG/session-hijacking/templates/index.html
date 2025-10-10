@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session Hijacking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;  /* Giảm chiều rộng tối đa để làm cho giao diện gọn gàng hơn */
+            padding: 30px;  /* Tăng khoảng cách bên trong */
+            background: #333;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);  /* Tăng độ mờ của bóng để tạo chiều sâu */
+            text-align: center;  /* Căn giữa tất cả nội dung */
+        }
+        h1 {
+            font-size: 26px;  /* Tăng kích thước tiêu đề */
+            color: #f39c12;
+            margin-bottom: 20px;  /* Thêm khoảng cách dưới tiêu đề */
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;  /* Tăng kích thước padding */
+            border-radius: 4px;
+            border: 1px solid #444;
+            background-color: #222;
+            color: #fff;
+            margin-bottom: 15px;  /* Thêm khoảng cách dưới ô nhập */
+        }
+        button {
+            width: 100%;  /* Đặt nút đăng nhập để chiếm toàn bộ chiều rộng */
+            padding: 12px;  /* Tăng kích thước padding của nút */
+            border: none;
+            border-radius: 4px;
+            background-color: #f39c12;
+            color: #1e1e1e;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome! Please Log In</h1>
+        <form action="/login" method="post">
+            <input type="text" name="user_id" placeholder="Enter User ID" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
