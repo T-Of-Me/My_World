@@ -31,5 +31,6 @@
 }
 ```
 **Lưu ý** : remoteRoot và localRoot sẽ map với cấu trúc src và port cũng phải đúng port đã open ở docker compose file 
- 
+![alt text](image-4.png)
+- And run start
 ![alt text](image-3.png)
