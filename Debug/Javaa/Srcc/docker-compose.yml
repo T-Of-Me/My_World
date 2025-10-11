@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+      - "5005:5005"           # cổng debug
+    environment:
+      - PORT=8080
+    volumes:
+      - .:/app
+    command: >
+      sh -c "javac -g App.java &&
+             java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 App"
+    restart: unless-stopped

@@ -1,0 +1,5 @@
+// .vscode/settings.json hoặc Settings (JSON)
+{
+  "java.debug.settings.console": "internalConsole" 
+  // hoặc "integratedTerminal" / "externalTerminal"
+}
