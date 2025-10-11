@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"          # Mở http://localhost:8080
+    volumes:
+      - ./src:/var/www/html
+    restart: unless-stopped
+environment:
+      XDEBUG_MODE: debug
+      XDEBUG_CONFIG: client_host=host.docker.internal client_port=9003
+extra_hosts:
+      - "host.docker.internal:host-gateway"
