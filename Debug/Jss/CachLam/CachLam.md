@@ -1,7 +1,7 @@
 # NodeJs - debug remote
 - Ta sẽ nhận thư mục như sau 
     - ![alt text](image.png) 
-- Thêm vào file `docker-compose.yml`
+- Thêm vào file `docker-compose.yml` dòng sau :
 ```py
     ports:     
          - "9229:9229"
@@ -11,6 +11,7 @@
     - ![alt text](image-2.png) 
 - Gen file `launch.json`
     - ![alt text](image-1.png) 
+- Thay thế nội dung file `config.json` như sau : 
 ```py
 {
     // Use IntelliSense to learn about possible attributes.
