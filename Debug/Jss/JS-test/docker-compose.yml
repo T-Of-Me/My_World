@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"   # app
+      - "9229:9229"   # Node inspector
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      # bật debug cho node (cả khi chạy qua nodemon)
+      NODE_OPTIONS: --inspect=0.0.0.0:9229
+    # chỉ 1 command, cài deps rồi chạy dev
+    command: sh -c "npm ci || npm i && npm run dev"
+    restart: unless-stopped
