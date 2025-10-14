@@ -11,7 +11,7 @@ app.secret_key = 'somesecret'
 create_auth_routes(app)
 create_main_routes(app)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     if not os.path.exists(DB_FILE):
         init_db()
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
