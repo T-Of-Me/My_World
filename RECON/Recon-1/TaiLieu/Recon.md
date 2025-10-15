@@ -87,3 +87,5 @@ sed -i '/<!-- masscan v1.0 scan -->/d' $1`
 - ![alt text](image-11.png)
 # Nmap-scripts
 - ![alt text](image-12.png)
+# Host
+![alt text](image-13.png)
