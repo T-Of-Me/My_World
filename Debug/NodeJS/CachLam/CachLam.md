@@ -34,3 +34,14 @@
 ![alt text](image-4.png)
 - And run start
 ![alt text](image-3.png)
+
+# Cách khác chill hơn 
+- Chọn cái này 
+    - ![alt text](image-5.png)
+- Chọn cái này 
+    - ![alt text](image-6.png)
+- Và `npx` lệnh y như trong script
+    -  ![alt text](image-7.png)
+- Kết quả 
+    - ![alt text](image-8.png)
+    
