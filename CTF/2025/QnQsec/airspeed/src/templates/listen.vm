@@ -1,0 +1,8 @@
+#set($title = $title)
+#set($body = "")
+#set($body = $body + '<h1>Listen — Ginseng Strip 2002</h1>')
+#set($body = $body + '<div class="video">')
+#set($body = $body + '<iframe width="100%" height="420" src="https://www.youtube.com/embed/' + $youtube_id + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+#set($body = $body + '</div>')
+#set($body = $body + '<p class="muted">If the embed doesn\'t load, open on YouTube directly.</p>')
+#parse("base.vm")

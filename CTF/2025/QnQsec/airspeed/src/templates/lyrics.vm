@@ -1,0 +1,8 @@
+#set($title = $title)
+#set($body = "")
+#set($body = $body + '<h1>Ginseng Strip 2002 — Lyrics</h1>')
+#set($body = $body + '<div class="lyrics">')
+#set($body = $body + $lyrics)
+#set($body = $body + '</div>')
+#set($body = $body + '<div class="muted" style="margin-top:8px;">All lyrics © their respective owners.</div>')
+#parse("base.vm")

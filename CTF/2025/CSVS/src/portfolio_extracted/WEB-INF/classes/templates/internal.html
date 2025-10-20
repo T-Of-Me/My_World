@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Internal - Test Connection</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>Portfolio Maker</header>
+<div class="container">
+    <h2>Internal: Test DB Connection</h2>
+
+    <form method="post" th:action="@{/internal/testConnection}">
+        <label>Username:</label>
+        <input type="text" name="username" required>
+        <label>Password:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Test</button>
+    </form>
+
+    <div th:if="${message}" class="message" th:text="${message}"></div>
+    <div th:if="${error}" class="error" th:text="${error}"></div>
+
+    <div class="footer">
+        <a th:href="@{/dashboard}">Back to Dashboard</a>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,18 @@
+#set($title = $title)
+#set($body = "")
+#set($body = $body + '<section class="hero">')
+#set($body = $body + '<h1>Yung Lean Appreciation</h1>')
+#set($body = $body + '<p class="lead">Celebrating Ginseng Strip 2002 — aesthetics, lyrics, and vibes.</p>')
+#set($body = $body + '<div class="hero-actions">')
+#set($body = $body + '<a class="btn primary" href="/listen">Listen</a>')
+#set($body = $body + '<a class="btn" href="/lyrics">Lyrics</a>')
+#set($body = $body + '</div>')
+#set($body = $body + '</section>')
+
+#set($body = $body + '<section class="grid cards">')
+#set($body = $body + '<div class="card"><h3>Aesthetic</h3><p>Cloudy textures, cold palettes, and melancholic energy.</p></div>')
+#set($body = $body + '<div class="card"><h3>Production</h3><p>Minimal beats with spacious synths and intimate delivery.</p></div>')
+#set($body = $body + '<div class="card"><h3>Legacy</h3><p>A defining moment in early cloud rap history.</p></div>')
+#set($body = $body + '</section>')
+
+#parse("base.vm")

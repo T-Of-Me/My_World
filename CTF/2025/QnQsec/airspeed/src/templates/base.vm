@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>$title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/lean" class="brand">LeanApp</a>
+        <nav class="nav">
+          <a href="/lean" class="nav-link">Home</a>
+          <a href="/lyrics" class="nav-link">Lyrics</a>
+          <a href="/listen" class="nav-link">Listen</a>
+          <a href="/about" class="nav-link">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main">
+      $body
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand">LeanApp</div>
+          <div class="muted">© 2025 LeanApp — Fan-made tribute site</div>
+        </div>
+        <div class="footer-links">
+          <a href="/about">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/static/js/main.js" defer></script>
+  </body>
+</html>
