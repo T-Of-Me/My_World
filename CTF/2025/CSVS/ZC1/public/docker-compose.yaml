@@ -7,7 +7,7 @@ services:
       - STORAGE_URL=http://app2
     ports:
       - "8000:8000"
-
+     
   app2:
     build:
       context: ./app2
