@@ -62,3 +62,4 @@ Hoặc
 ```code!
 location = "javascript:alert(origin)"
 ```
+- [Vào đây để check CSP](https://csp-evaluator.withgoogle.com/)
