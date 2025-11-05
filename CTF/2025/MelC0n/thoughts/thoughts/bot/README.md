@@ -1,1 +1,0 @@
-based on https://github.com/kevin-mizu/bot-ctf-template

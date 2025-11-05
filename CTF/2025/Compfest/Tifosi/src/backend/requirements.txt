@@ -1,9 +1,0 @@
-fastapi
-motor
-python-jose[cryptography]
-pydantic[email]
-bcrypt==3.2.2
-passlib[bcrypt]
-uvicorn
-bs4
-slowapi

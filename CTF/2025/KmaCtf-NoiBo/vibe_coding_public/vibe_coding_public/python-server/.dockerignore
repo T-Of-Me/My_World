@@ -1,8 +1,0 @@
-*.log
-.git
-.gitignore
-README.md
-solution.py
-start.sh
-test.sh
-.DS_Store
