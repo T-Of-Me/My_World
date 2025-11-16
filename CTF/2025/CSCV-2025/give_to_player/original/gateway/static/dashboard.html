@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #333;
+            font-size: 32px;
+        }
+        
+        .logout-btn {
+            padding: 10px 20px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .logout-btn:hover {
+            background: #c82333;
+        }
+        
+        .info-section {
+            margin-bottom: 20px;
+        }
+        
+        .info-section h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .info-item {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        
+        .info-label {
+            font-weight: 600;
+            color: #666;
+            width: 120px;
+        }
+        
+        .info-value {
+            color: #333;
+            flex: 1;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #667eea;
+            color: white;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1>Gateway Dashboard</h1>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+            </div>
+            
+            <div class="info-section">
+                <h2>User Information</h2>
+                <div class="info-item">
+                    <div class="info-label">Username:</div>
+                    <div class="info-value" id="username">-</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Roles:</div>
+                    <div class="info-value" id="roles">-</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Check if user is logged in by making a test request
+        // Since token is in cookie, we don't need to check localStorage
+        const username = localStorage.getItem('username');
+        const roles = localStorage.getItem('roles');
+        
+        // Display user info
+        document.getElementById('username').textContent = username || 'Unknown';
+        
+        if (roles) {
+            try {
+                const rolesArray = JSON.parse(roles);
+                document.getElementById('roles').innerHTML = rolesArray.map(role => 
+                    `<span class="badge">${role}</span>`
+                ).join('');
+            } catch (e) {
+                document.getElementById('roles').textContent = roles;
+            }
+        }
+        
+        // Check authentication status and get token expiry
+        async function checkAuth() {
+            try {
+                const response = await fetch('/gateway-health', {
+                    credentials: 'include' // Include cookies in request
+                });
+                
+                if (response.status === 302) {
+                    // Redirected to login, user not authenticated
+                    window.location.href = '/gateway-login';
+                    return;
+                }
+                
+                // Try to get token from cookie and decode for expiry info
+                const cookies = document.cookie.split(';');
+                const authCookie = cookies.find(cookie => cookie.trim().startsWith('auth_token='));
+                
+                // Token exists in cookie - authentication is valid
+            } catch (error) {
+                console.error('Auth check failed:', error);
+                // If we can't verify auth, redirect to login
+                window.location.href = '/gateway-login';
+            }
+        }
+        
+        async function logout() {
+            try {
+                const response = await fetch('/gateway-logout', {
+                    method: 'POST',
+                    credentials: 'include' // Include cookies in request
+                });
+                
+                if (response.ok) {
+                    // Clear localStorage and redirect
+                    localStorage.removeItem('username');
+                    localStorage.removeItem('roles');
+                    window.location.href = '/gateway-login';
+                } else {
+                    console.error('Logout failed');
+                    // Still redirect to login even if logout failed
+                    localStorage.removeItem('username');
+                    localStorage.removeItem('roles');
+                    window.location.href = '/gateway-login';
+                }
+            } catch (error) {
+                console.error('Logout error:', error);
+                // Still redirect to login even if logout failed
+                localStorage.removeItem('username');
+                localStorage.removeItem('roles');
+                window.location.href = '/gateway-login';
+            }
+        }
+        
+        // Check authentication on page load
+        checkAuth();
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<%@ page import="java.sql.*" %>
+<%
+    String dbURL = "jdbc:postgresql://postgres:5432/it_db";
+    String dbUser = "postgres";
+    String dbPass = "postgres";
+    Class.forName("org.postgresql.Driver");
+    Connection conn = DriverManager.getConnection(dbURL, dbUser, dbPass);
+
+%>
+<%!
+    private String[] blackLists = {"pg_", "chr", "select", "insert", "update", "copy", "lo_", "program", "xml", ";"};
+    public boolean isSafeArgument(String input) {
+        for (String keyword: blackLists) {
+            if (input.toLowerCase().contains(keyword.toLowerCase())) {
+                return false;
+            }
+        }
+        return true;
+    }
+%>

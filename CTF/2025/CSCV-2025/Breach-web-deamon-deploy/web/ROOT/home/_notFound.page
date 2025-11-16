@@ -1,0 +1,43 @@
+#set($now = $dateTool.get("yyyy-MM-dd HH:mm:ss"))
+
+<html>
+<head>
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding-top: 100px;
+            color: #333;
+        }
+        h1 {
+            font-size: 72px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+        .timestamp {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<h1>404</h1>
+<p>Sorry, the page you are looking for could not be found.</p>
+
+#if($requestURI)
+<p>Requested URL: <strong>$requestURI</strong></p>
+#else
+<p>It looks like you followed a broken link.</p>
+#end
+
+<div class="timestamp">
+    Server time: $now
+</div>
+</body>
+</html>

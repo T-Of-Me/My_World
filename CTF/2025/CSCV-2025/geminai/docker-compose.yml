@@ -1,0 +1,60 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: geminai-web
+    ports:
+      - "31337:3000"
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=geminai_db
+      - DB_USER=geminai_user
+      - DB_PASSWORD=geminai_password
+      - SESSION_SECRET=[**REDACTED**]
+    networks:
+      - geminai-network
+    depends_on:
+      - db
+    restart: unless-stopped
+  
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: geminai-backend
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=geminai_db
+      - DB_USERNAME=geminai_user
+      - DB_PASSWORD=geminai_password
+    volumes:
+      - ./backend/uploads:/var/www/html/uploads
+    depends_on:
+      - db
+    networks:
+      - geminai-network
+
+  db:
+    image: postgres:15-alpine
+    container_name: geminai-db
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - POSTGRES_DB=geminai_db
+      - POSTGRES_USER=geminai_user
+      - POSTGRES_PASSWORD=geminai_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - geminai-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  geminai-network:
+    driver: bridge

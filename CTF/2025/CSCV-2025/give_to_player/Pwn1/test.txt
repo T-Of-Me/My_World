@@ -1,0 +1,30 @@
+AGENTS = [
+    {
+        'name': 'Agent-1',
+        'cookies': {
+            "x_polaris_sid": "C1TwfNoZE5PH|Tp3to8FCz9nN0|Wmfd8LULN",
+            "x_polaris_cid": "C1Twfnhk6tQ94OumExKhYz2WqOw2Boyzy3UZ",
+            "session": "2b7ec366-f1f2-4fdf-aac0-6b103ecd61d1.yjc0FmihMytkLedpWn8kSRES8a0",
+            "x_polaris_sd": "ns7VrAP83ewp7VfBgLXtvB0F68cXBfRLXEyg48cm|4k2mau/dV4qP7aX68Dgq3C6/30Eo2LsxSI61p1Kasj7vgAkIWCkQ8mcxO4s4F6B8dNmxJYg453tLCnB4dA1W2l!"
+        }
+    },
+   # THÊM AGENTS Ở ĐÂY (cần login từ nhiều browsers/devices khác nhau)
+    {
+        'name': 'Agent-2',
+        'cookies': {
+            "x_polaris_sid": "C1ThICdO5t1vzkJrcPpW8Hk5RbKU9EoF6Ld1",
+            "x_polaris_cid": "C1RwzpVUNcQnW6DOSG|mffk9rDpd|pucMLJ9",
+            "session": "4678aac7-0945-471d-aa67-9271a4e42f5f.7hQCLPLOYqsHusn6qQ0oGJdQM3U",
+            "x_polaris_sd": "j09SDHppx3Cci5LKob29bv2hzlCSs6f46e0nSu52Yoiz8xMyFCobzT4bQe60fnYutSAnCURWNwTm8/930uKXoflqbiPXgLLEsdJBrrlPYHuJfBmzhBTbQ1P22p17ZS4PRZ/!"
+        }
+    },
+    {
+        'name': 'Agent-3',
+        'cookies': {
+            "x_polaris_sid": "C1ThICdO5t1vzkJrcPpW8Hk5RbKU9EoF6Ld1",
+            "x_polaris_cid": "C1RwzpVUNcQnW6DOSG|mffk9rDpd|pucMLJ9",
+            "session": "9d8f5f4f-c3d4-4c71-b15f-e7945ca52d82.e7pyzcFMojUB0tVEqh-GwfRR8bs",
+            "x_polaris_sd": "mFL6VbAN4g/1X|eIt7qUtfIvAZXyEuswJ1QtM5JObMSabtx7iXIvfmkxAYSDm2ocKexNnVC/LJt|2|y|TjWqq0SvSY0Gn4ijKvgbHATVq76AfpDWS7oiqjh5NdqMZ6S2U4B!"
+        }
+    },
+]
