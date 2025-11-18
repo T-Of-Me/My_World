@@ -64,9 +64,29 @@ $message = vsprintf($greeting, [date('Y-m-d H:i:s'), getenv('FLAG')]);
     │      └─ %s thật sự!
     └─ %1$'&g = format specifier khác
 ```
-→ Tạo ra 2 format specifiers:
-1. `%1$'&g` - tiêu thụ arg đầu (date)
-2. `%s` - lấy arg thứ 2 (FLAG) ✓
+```code
+
+Args: [date, FLAG]
+      ↓     ↓
+      0     1  ← Vị trí trong mảng
+
+Format string: "... %1$c;-- %1$'&gt;%s, the server time is %s"
+                    │         │       │                      │
+                    │         │       │                      └─ %s (template)
+                    │         │       └─ %s Lấy arg[0]=Time ✓            Sequential
+                    │         └─ %1$'&g                                  Lấy arg[1]=FLAG ✓
+                    │            Positional 
+                    │            Lấy arg[0]
+                    └─ %1$c
+                       Positional
+                       Lấy arg[0]
+```
+Cursor timeline:
+- Start: cursor = 0
+- `%1$c`: positional → cursor vẫn 0
+- `%1$'&g`: positional → cursor vẫn 0
+- `%s` (payload): sequential → lấy `arg[0]`, cursor++ = 1 ✓
+- `%s` (template): sequential → lấy `arg[1]`=FLAG ✓
 
 ## Payload cuối cùng
 ```
