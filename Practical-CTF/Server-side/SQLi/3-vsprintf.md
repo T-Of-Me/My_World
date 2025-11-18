@@ -1,3 +1,8 @@
+Đặc điểm có thể nhận ra dựa vào code có thể là :
+```code
+ $message = vsprintf($greeting, [date('Y-m-d H:i:s'), getenv('FLAG')]);
+```
+
 # Bước 1: Bypass kiểm tra username với \x80
 - Username phải bắt đầu bằng "admin"
 - Thêm byte` \x80` sau `"admin"` để:
