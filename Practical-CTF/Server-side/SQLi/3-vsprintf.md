@@ -76,7 +76,7 @@ Password: 668
 
 -> PWN
 
-```code
+```php
 <?php
 function mysql_fquery($mysqli, $query, $params) {
   return mysqli_query($mysqli, vsprintf($query, $params));
