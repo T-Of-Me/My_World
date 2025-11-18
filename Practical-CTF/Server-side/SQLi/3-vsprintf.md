@@ -19,7 +19,7 @@ Password "668"
 ```code
   WHERE username = "admin\x80";-- ..." AND password = "..."
 ```
-# ### Bước 3: Leak flag với format string ẩn `%1$'>%s`
+# Bước 3: Leak flag với format string ẩn `%1$'>%s`
 
 **Vấn đề**: Cần thêm `%s` để lấy flag, nhưng nó gây blow-up ở query SQL sớm hơn , tức nếu đưa thêm `%c` vào trực tiếp cấu query thì nó sẽ gây lỗi đang trong câu truy vấn check username và passwd.
 -> Phải làm sao đấy để che dấu `%s` đi rồi sau khi qua câu query check passwd nó mới hiện ra 
