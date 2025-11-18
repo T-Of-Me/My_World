@@ -3,7 +3,7 @@
  $message = vsprintf($greeting, [date('Y-m-d H:i:s'), getenv('FLAG')]);
 ```
 
-# Bước 1: Bypass kiểm tra username với \x80
+# Bước 1: Bypass kiểm tra username với  `\x80`
 - Username phải bắt đầu bằng "admin"
 - Thêm byte` \x80` sau `"admin"` để:
     - Vượt qua kiểm tra: `admin\x80anything` được chấp nhận
