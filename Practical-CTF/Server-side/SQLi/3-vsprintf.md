@@ -2,7 +2,7 @@
 ```code
  $message = vsprintf($greeting, [date('Y-m-d H:i:s'), getenv('FLAG')]);
 ```
-
+[NGUỒN](https://www.justinsteven.com/posts/2023/09/10/ductf-2023-smooth-jazz-sqli/)
 # Bước 1: Bypass kiểm tra username với  `\x80`
 - Username phải bắt đầu bằng "admin"
 - Thêm byte` \x80` sau `"admin"` để:
