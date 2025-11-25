@@ -110,9 +110,7 @@ export default function Dashboard() {
             <p style={{ color: '#00ff00', margin: '0 0 5px 0', fontSize: '14px' }}>
               <strong>Security Update</strong> <span style={{ color: '#666', fontSize: '12px' }}>- 1 week ago</span>
             </p>
-            <p style={{ color: '#888', margin: 0, fontSize: '13px' }}>
-              New middleware authentication system deployed across all services
-            </p>
+    
           </div>
 
           <div>
@@ -139,7 +137,7 @@ export default function Dashboard() {
             fontFamily: 'monospace',
             lineHeight: '1.6'
           }}>
-{`// TODO: Review middleware configuration
+{`// TODO: Review  configuration
  
 // Note: Ensure proper authentication headers
 // Status: Pending security review`}

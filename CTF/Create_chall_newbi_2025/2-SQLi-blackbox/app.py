@@ -41,7 +41,7 @@ def login():
 
 @app.route('/dashboard')
 def dashboard():
-    flag = "MSEC{You_ar3_AdM1n}"
+    flag = "MSEC{no_flag}"
     return render_template('dashboard.html', flag=flag)
 
 if __name__ == '__main__':

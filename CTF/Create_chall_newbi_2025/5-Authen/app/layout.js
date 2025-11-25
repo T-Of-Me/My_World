@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'CTF Challenge - Middleware Bypass',
+  title: 'MSEC',
 }
 
 export default function RootLayout({ children }) {
