@@ -178,6 +178,14 @@ mysql> SELECT * FROM logins;
 
 - The query above updated all passwords in all records where the id was more significant than 1.
 
+```code
+mysql -u root -h 94.237.60.55 -P 55592 --ssl=0 -p
+USE employees;
+SHOW tables;
+Describe departments;
+select * from departments;
+```
+
 
 
 
