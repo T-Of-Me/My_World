@@ -118,6 +118,6 @@ mysql> SELECT * FROM logins WHERE username like '___';
 1 row in set (0.01 sec)
 ```
 
-
+![alt text](image.png)
 
     
